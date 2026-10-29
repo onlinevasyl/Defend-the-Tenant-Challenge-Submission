@@ -11,6 +11,8 @@ The project demonstrates implementation and validation of Microsoft 365 security
 
 ## Phase 1: Tenant Hardening
 
+[View Hardening Results](./hardening-results.txt)
+
 Implemented controls:
 
 - MFA for Administrative Roles
@@ -31,6 +33,8 @@ Validation Results:
 ---
 
 ## Phase 2: Security Hardening Plan
+
+[View Phase 2 Security Hardening Plan](./Phase2-Security-Hardening-Plan.md)
 
 The security hardening plan includes:
 
