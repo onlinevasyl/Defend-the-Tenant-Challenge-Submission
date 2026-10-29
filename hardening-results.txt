@@ -1,0 +1,256 @@
+
+Microsoft 365 live recommendation status
+Tenant: eafb1a46-e689-4edf-bd07-7ae1b8401e6a | Checked at: 2026-10-28 22:05:52Z
+MFA results check enabled configuration; complete coverage and registration are advisory.
+Registration data can lag by up to 36 hours. UNKNOWN means not verified, not necessarily unconfigured.
+
+
+Number Status      Recommendation                                                                     Evidence
+------ ------      --------------                                                                     --------
+     1 IMPLEMENTED Ensure multifactor authentication is enabled for all users in administrative roles Enabled MFA
+                                                                                                      policy found: 'CA
+                                                                                                      - Require MFA for
+                                                                                                      Admins' (ID: 54acc
+                                                                                                      ae1-299a-4d6a-8b85
+                                                                                                      -94446721b46f,
+                                                                                                      state: enabled);
+                                                                                                      'CA - Require MFA
+                                                                                                      for All Users'
+                                                                                                      (ID: ca3bf771-6574
+                                                                                                      -40f2-ba56-09163d0
+                                                                                                      9d408, state:
+                                                                                                      enabled); 'CA -
+                                                                                                      Sign-In Risk MFA'
+                                                                                                      (ID: d9d0545b-ac42
+                                                                                                      -4b94-a8b2-251dc69
+                                                                                                      f7b4c, state:
+                                                                                                      enabled); 'CA -
+                                                                                                      High User Risk
+                                                                                                      Remediation' (ID:
+                                                                                                      0d3c7545-1cdf-4e7a
+                                                                                                      -bd96-f8d7205d01d4
+                                                                                                      , state:
+                                                                                                      enabled). This
+                                                                                                      checks
+                                                                                                      configuration,
+                                                                                                      not every account
+                                                                                                      or sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory: broad
+                                                                                                      MFA protection
+                                                                                                      with only
+                                                                                                      approved
+                                                                                                      exclusions was
+                                                                                                      verified.
+                                                                                                      Exclusion
+                                                                                                      advisory: no
+                                                                                                      exclusions found
+                                                                                                      on matching
+                                                                                                      enabled
+                                                                                                      Conditional
+                                                                                                      Access policies.
+                                                                                                      Registration
+                                                                                                      advisory: 3 of 4
+                                                                                                      checked enabled
+                                                                                                      accounts are not
+                                                                                                      reported
+                                                                                                      MFA-capable and 0
+                                                                                                      have missing
+                                                                                                      data.
+                                                                                                      Registration data
+                                                                                                      can lag by up to
+                                                                                                      36 hours and does
+                                                                                                      not determine the
+                                                                                                      enabled-policy
+                                                                                                      result.
+     2 IMPLEMENTED Ensure multifactor authentication is enabled for all users                         Enabled MFA
+                                                                                                      policy found: 'CA
+                                                                                                      - Require MFA for
+                                                                                                      All Users' (ID: ca
+                                                                                                      3bf771-6574-40f2-b
+                                                                                                      a56-09163d09d408,
+                                                                                                      state: enabled);
+                                                                                                      'CA - Sign-In
+                                                                                                      Risk MFA' (ID: d9d
+                                                                                                      0545b-ac42-4b94-a8
+                                                                                                      b2-251dc69f7b4c,
+                                                                                                      state: enabled);
+                                                                                                      'CA - High User
+                                                                                                      Risk Remediation'
+                                                                                                      (ID: 0d3c7545-1cdf
+                                                                                                      -4e7a-bd96-f8d7205
+                                                                                                      d01d4, state:
+                                                                                                      enabled). This
+                                                                                                      checks
+                                                                                                      configuration,
+                                                                                                      not every account
+                                                                                                      or sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory: broad
+                                                                                                      MFA protection
+                                                                                                      with only
+                                                                                                      approved
+                                                                                                      exclusions was
+                                                                                                      verified.
+                                                                                                      Exclusion
+                                                                                                      advisory: no
+                                                                                                      exclusions found
+                                                                                                      on matching
+                                                                                                      enabled
+                                                                                                      Conditional
+                                                                                                      Access policies.
+                                                                                                      Registration
+                                                                                                      advisory: 9 of 10
+                                                                                                      checked enabled
+                                                                                                      accounts are not
+                                                                                                      reported
+                                                                                                      MFA-capable and 0
+                                                                                                      have missing
+                                                                                                      data.
+                                                                                                      Registration data
+                                                                                                      can lag by up to
+                                                                                                      36 hours and does
+                                                                                                      not determine the
+                                                                                                      enabled-policy
+                                                                                                      result.
+     3 IMPLEMENTED Enable Conditional Access policies to block legacy authentication                  Enforced legacy-au
+                                                                                                      thentication
+                                                                                                      block: CA - Block
+                                                                                                      Legacy
+                                                                                                      Authentication.
+     4 IMPLEMENTED Enable Microsoft Entra ID Identity Protection sign-in risk policies                Enabled sign-in
+                                                                                                      risk MFA policy
+                                                                                                      found: 'CA -
+                                                                                                      Sign-In Risk MFA'
+                                                                                                      (ID: d9d0545b-ac42
+                                                                                                      -4b94-a8b2-251dc69
+                                                                                                      f7b4c, state:
+                                                                                                      enabled).
+                                                                                                      Matching requires
+                                                                                                      All users, medium
+                                                                                                      and high sign-in
+                                                                                                      risk, MFA, and
+                                                                                                      every-time primary
+                                                                                                      -and-secondary
+                                                                                                      reauthentication.
+                                                                                                      Security Defaults
+                                                                                                      alone does not
+                                                                                                      satisfy this
+                                                                                                      check. This
+                                                                                                      checks
+                                                                                                      configuration,
+                                                                                                      not every account
+                                                                                                      or sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory: broad
+                                                                                                      sign-in risk MFA
+                                                                                                      protection with
+                                                                                                      only approved
+                                                                                                      exclusions was
+                                                                                                      verified.
+                                                                                                      Exclusion
+                                                                                                      advisory: no
+                                                                                                      exclusions found
+                                                                                                      on matching
+                                                                                                      enabled
+                                                                                                      Conditional
+                                                                                                      Access policies.
+     5 IMPLEMENTED Enable Microsoft Entra ID Identity Protection user risk policies                   Enabled user risk
+                                                                                                      remediation
+                                                                                                      policy found: 'CA
+                                                                                                      - High User Risk
+                                                                                                      Remediation' (ID:
+                                                                                                      0d3c7545-1cdf-4e7a
+                                                                                                      -bd96-f8d7205d01d4
+                                                                                                      , state:
+                                                                                                      enabled).
+                                                                                                      Matching requires
+                                                                                                      All users, high
+                                                                                                      user risk, MFA
+                                                                                                      AND exactly one
+                                                                                                      remediation
+                                                                                                      control
+                                                                                                      (passwordChange
+                                                                                                      or
+                                                                                                      riskRemediation),
+                                                                                                      and every-time pri
+                                                                                                      mary-and-secondary
+                                                                                                     
+                                                                                                      reauthentication.
+                                                                                                      Modern
+                                                                                                      riskRemediation
+                                                                                                      requires an MFA
+                                                                                                      authentication
+                                                                                                      strength.
+                                                                                                      Security Defaults
+                                                                                                      alone does not
+                                                                                                      satisfy this
+                                                                                                      check. This
+                                                                                                      checks
+                                                                                                      configuration,
+                                                                                                      not every account
+                                                                                                      or sign-in.
+                                                                                                      Coverage
+                                                                                                      advisory: broad
+                                                                                                      user risk
+                                                                                                      remediation
+                                                                                                      protection with
+                                                                                                      only approved
+                                                                                                      exclusions was
+                                                                                                      verified.
+                                                                                                      Exclusion
+                                                                                                      advisory: no
+                                                                                                      exclusions found
+                                                                                                      on matching
+                                                                                                      enabled
+                                                                                                      Conditional
+                                                                                                      Access policies.
+     6 IMPLEMENTED Ensure user consent to apps accessing company data on their behalf is not allowed  No default-user
+                                                                                                      self-consent
+                                                                                                      policy is
+                                                                                                      assigned.
+                                                                                                      Existing consent
+                                                                                                      grants are not
+                                                                                                      revoked by this
+                                                                                                      setting.
+     7 IMPLEMENTED Only invited users should be automatically admitted to Teams meetings              Global:
+                                                                                                      AutoAdmittedUsers
+                                                                                                      is 'InvitedUsers'.
+     8 IMPLEMENTED Configure which users are allowed to present in Teams meetings                     Global: Designated
+                                                                                                      PresenterRoleMode
+                                                                                                      is 'OrganizerOnlyU
+                                                                                                      serOverride'.
+     9 IMPLEMENTED Restrict anonymous users from joining meetings                                     Global: AllowAnony
+                                                                                                      mousUsersToJoinMee
+                                                                                                      ting is 'False'.
+    10 IMPLEMENTED Ensure 'Self service password reset enabled' is set to 'All'                       Password reset >
+                                                                                                      Properties = All
+                                                                                                      is recorded as ope
+                                                                                                      rator-confirmed
+                                                                                                      by the script
+                                                                                                      default.
+                                                                                                      Registration
+                                                                                                      note: 1 of 10
+                                                                                                      enabled member
+                                                                                                      accounts are
+                                                                                                      reported
+                                                                                                      SSPR-registered;
+                                                                                                      9 are not
+                                                                                                      registered and 0
+                                                                                                      have missing
+                                                                                                      registration
+                                                                                                      data. 1 are
+                                                                                                      reported
+                                                                                                      SSPR-capable; 9
+                                                                                                      are not capable
+                                                                                                      and 0 have
+                                                                                                      missing
+                                                                                                      capability data.
+                                                                                                      Registration data
+                                                                                                      can lag by up to
+                                                                                                      36 hours.
+
+
+Summary: 10 implemented, 0 not configured, 0 unknown (10 recommendations).
+Snapshot: C:\SecureM365Snapshots\eafb1a46-e689-4edf-bd07-7ae1b8401e6a-m365-recommendation-status-20261028-220552587Z.json
+
