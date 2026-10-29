@@ -1,2 +1,57 @@
 # Defend-the-Tenant-Challenge-Submission
-Submission for Microsoft Defend the Tenant Challenge Contest
+Submission for the Microsoft Defend the Tenant Challenge Contest
+
+## Overview
+
+This repository contains my Phase 1 and Phase 2 submission for the Microsoft Defend the Tenant Challenge Contest.
+
+The project demonstrates implementation and validation of Microsoft 365 security controls and provides a security hardening plan for a fictional customer environment.
+
+---
+
+## Phase 1: Tenant Hardening
+
+Implemented controls:
+
+- MFA for Administrative Roles
+- MFA for All Users
+- Block Legacy Authentication
+- Sign-In Risk Conditional Access
+- High User Risk Remediation
+- Disable User Application Consent
+- Teams Lobby Restrictions
+- Teams Presenter Restrictions
+- Disable Anonymous Teams Access
+- Self-Service Password Reset
+
+Validation Results:
+
+✅ 10 of 10 security recommendations implemented
+
+---
+
+## Phase 2: Security Hardening Plan
+
+The security hardening plan includes:
+
+- Recommended Microsoft 365 security controls
+- Security risks addressed
+- Business justification
+- Security posture improvements
+- Customer-focused implementation guidance
+
+---
+
+## Validation Summary
+
+The assessment script confirmed:
+
+- 10 Implemented
+- 0 Not Configured
+- 0 Unknown
+
+---
+
+## Author
+
+Vasyl Martyshko
