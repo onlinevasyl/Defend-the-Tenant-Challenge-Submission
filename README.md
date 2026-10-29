@@ -11,7 +11,7 @@ The project demonstrates implementation and validation of Microsoft 365 security
 
 ## Phase 1: Tenant Hardening
 
-[View Hardening Results](./hardening-results.txt)
+[View hardening-results.txt](./hardening-results.txt)
 
 Implemented controls:
 
