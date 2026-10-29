@@ -3,7 +3,7 @@ Submission for the Microsoft Defend the Tenant Challenge Contest
 
 ## Overview
 
-This repository contains my Phase 1 and Phase 2 submission for the Microsoft Defend the Tenant Challenge Contest.
+This repository contains my Phase 1 and Phase 2 submission for the [Microsoft Defend the Tenant Challenge](https://github.com/microsoft/Defend-the-Tenant-Challenge/tree/main) Contest.
 
 The project demonstrates implementation and validation of Microsoft 365 security controls and provides a security hardening plan for a fictional customer environment.
 
