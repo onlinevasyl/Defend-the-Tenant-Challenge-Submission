@@ -46,13 +46,18 @@ The security hardening plan includes:
 
 ---
 
-## Validation Summary
+## Defend Your Tenant Environment Playlist Completion Proof
 
-The assessment script confirmed:
+- [Defend Your Tenant Environment Playlist Proof](./screenshots/Defend_Your_Tenant_Environment_Playlist_Proof.png)
 
-- 10 Implemented
-- 0 Not Configured
-- 0 Unknown
+---
+
+## Tenant Screenshots
+
+- [Screenshot 1](./screenshots/Tenant_Screenshot_1.png)
+- [Screenshot 2](./screenshots/Tenant_Screenshot_2.png)
+- [Screenshot 3](./screenshots/Tenant_Screenshot_3.png)
+- [Screenshot 4](./screenshots/Tenant_Screenshot_4.png)
 
 ---
 
