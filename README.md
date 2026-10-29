@@ -58,6 +58,7 @@ The security hardening plan includes:
 - [Screenshot 2](./screenshots/Tenant_Screenshot_2.png)
 - [Screenshot 3](./screenshots/Tenant_Screenshot_3.png)
 - [Screenshot 4](./screenshots/Tenant_Screenshot_4.png)
+- [Screenshot 5](./screenshots/Tenant_Screenshot_5.png)
 
 ---
 
